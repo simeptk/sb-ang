@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "36lo5WVX2HE=",
+  "success": true,
+  "projectFilePath": "/workspaces/sb-ang/dotnet-demo/helloworldweb/helloworldweb.csproj",
+  "expectedPackageFiles": [
+    "/home/codespace/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
