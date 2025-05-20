@@ -12,10 +12,20 @@ import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.lang.management.ManagementFactory;
 import com.sun.management.OperatingSystemMXBean; // Requires com.sun.management.OperatingSystemMXBean
+import org.springframework.web.bind.annotation.CrossOrigin;
 
 @RestController
 @RequestMapping("/api") // Base path for API endpoints
 @CrossOrigin(origins = "http://localhost:4200") // <-- Add this annotation
+// This controller provides weather forecasts and system information
+// It uses Spring's RestController to handle HTTP requests
+// The @RequestMapping annotation specifies the base path for all endpoints in this controller
+// The @GetMapping annotation is used to map HTTP GET requests to specific methods
+// The WeatherForecast class is a simple data model representing a weather forecast
+// The SystemInfo class is a simple data model representing system information
+// The Random class is used to generate random numbers for the weather forecast
+// The InetAddress class is used to get the hostname of the machine
+// The UnknownHostException is handled to avoid crashing if the hostname cannot be determined
 public class WeatherController {
 
     private static final String[] SUMMARIES = new String[] {
