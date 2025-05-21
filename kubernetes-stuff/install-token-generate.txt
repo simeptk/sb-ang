@@ -25,3 +25,13 @@ For Token to access Kubernetes Dashboard:
 
 For Tekton Pipeline Installation:
 	• https://tekton.dev/docs/dashboard/install/
+
+For triggers Setup:
+kubectl apply --filename \
+https://storage.googleapis.com/tekton-releases/triggers/latest/release.yaml
+kubectl apply --filename \
+https://storage.googleapis.com/tekton-releases/triggers/latest/interceptors.yaml
+
+=======================
+Learning Steps:
+https://tekton.dev/docs/getting-started/triggers/
