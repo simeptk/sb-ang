@@ -1,4 +1,4 @@
-# Local Application Setup, Build, and Deployment Process
+# Local Application Setup, Build, and Deployment Process by simeptk
 
 This document provides a detailed, step-by-step guide for setting up your local environment, building .NET 9 applications, containerizing them using Docker, and deploying them to a local Kubernetes cluster (specifically using Rancher Desktop). It combines conceptual planning with concrete command examples and outputs.
 
