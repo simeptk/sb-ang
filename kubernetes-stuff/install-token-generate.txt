@@ -38,3 +38,6 @@ https://tekton.dev/docs/getting-started/triggers/
 
 To Install tkn packages:
 https://docs.redhat.com/en/documentation/openshift_container_platform/4.9/html/cli_tools/pipelines-cli-tkn#installing-tkn
+
+Local Path Setup:
+kubectl apply -f https://raw.githubusercontent.com/rancher/local-path-provisioner/master/deploy/local-path-storage.yaml
