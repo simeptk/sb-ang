@@ -35,3 +35,6 @@ https://storage.googleapis.com/tekton-releases/triggers/latest/interceptors.yaml
 =======================
 Learning Steps:
 https://tekton.dev/docs/getting-started/triggers/
+
+To Install tkn packages:
+https://docs.redhat.com/en/documentation/openshift_container_platform/4.9/html/cli_tools/pipelines-cli-tkn#installing-tkn
